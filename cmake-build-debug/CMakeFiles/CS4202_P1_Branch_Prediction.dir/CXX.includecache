@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/branch.cpp
+branch.h
+/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/branch.h
+
+/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/branch.h
+string
+-
+
+/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/main.cpp
+branch.h
+/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/branch.h
+iostream
+-
+fstream
+-
+string
+-
+sstream
+-
+vector
+-
+

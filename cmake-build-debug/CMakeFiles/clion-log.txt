@@ -1,0 +1,4 @@
+/cs/home/locw/Downloads/CLion/clion-2017.3/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/cmake-build-debug

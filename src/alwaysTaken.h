@@ -13,7 +13,6 @@ public:
 
     bool isTaken(Branch b) const override;
     void simulate() override;
-    void print() const override;
 };
 
 

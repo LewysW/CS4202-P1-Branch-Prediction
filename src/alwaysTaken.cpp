@@ -22,8 +22,3 @@ void AlwaysTaken::simulate() {
 bool AlwaysTaken::isTaken(Branch b) const {
     return true;
 }
-
-void AlwaysTaken::print() const {
-    std::cout << "Branches simulated: " << getBranches().size() << std::endl;
-    std::cout << "Prediction rate: " << getRate() << std::endl;
-}

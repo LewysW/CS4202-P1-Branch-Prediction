@@ -1,5 +1,6 @@
 #pragma once
 #include <vector>
+#include <iostream>
 #include "branch.h"
 
 class Predictor {
@@ -20,7 +21,7 @@ public:
 
     virtual void simulate() = 0;
 
-    virtual void print() const = 0;
+    virtual void print() const;
 };
 
 

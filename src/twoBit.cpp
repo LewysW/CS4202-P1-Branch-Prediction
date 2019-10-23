@@ -6,12 +6,12 @@ TwoBit::TwoBit(std::shared_ptr<std::vector<Branch>> &branches) : Predictor(branc
 void TwoBit::simulate(int tableSize) {
     double correct = 0;
     std::map<long long, int> table;
-    unsigned int addressLen = static_cast<unsigned int>(log2(tableSize));
+    auto addressLen = static_cast<unsigned int>(log2(tableSize));
 
     for (unsigned int i = 0; i < getBranches()->size(); i++) {
         Branch b = getBranches()->at(i);
 
-        std::string binary = std::bitset<32>(std::stoll(b.getAddress())).to_string();
+        std::string binary = std::bitset<32>(static_cast<unsigned long long>(std::stoll(b.getAddress()))).to_string();
         long long address = std::stoll(binary.substr(binary.length() - addressLen, addressLen));
 
         if (table.find(address) == table.end())
@@ -19,7 +19,6 @@ void TwoBit::simulate(int tableSize) {
 
         if (isTaken(address, table) == b.isTaken()) {
             correct++;
-
             if (table.at(address) < STRONGLY_TAKEN) {
                 table[address]++;
             }

@@ -1,26 +1,15 @@
-#include "branch.h"
-#include "predictor.h"
-#include "alwaysTaken.h"
-#include <iostream>
-#include <fstream>
-#include <string>
-#include <sstream>
-#include <vector>
-#include <set>
-
-
-std::vector<std::string> getOptions(int argc, char* argv[]);
-std::vector<Branch> parseLines(std::ifstream& ifstream);
-std::vector<Branch> readFile(std::string const& file);
-void printUsage();
+#include <memory>
+#include "main.h"
+#include "twoBit.h"
 
 int main(int argc, char* argv[]) {
     if (argc > 2) {
         std::string fileName = std::string(argv[1]);
         std::vector<std::string> opts = getOptions(argc, argv);
 
-        std::vector<Branch> branches = readFile(fileName);
+        std::shared_ptr<std::vector<Branch>> branches = std::make_shared<std::vector<Branch>>(readFile(fileName));
         AlwaysTaken alwaysTaken(branches);
+        TwoBit twoBit(branches);
 
         for (const std::string& opt : opts) {
             switch (opt[1]) {
@@ -29,7 +18,14 @@ int main(int argc, char* argv[]) {
                     alwaysTaken.print();
                     break;
                 case 'b':
-
+                    twoBit.simulate(512);
+                    twoBit.print(512);
+                    twoBit.simulate(1024);
+                    twoBit.print(1024);
+                    twoBit.simulate(2048);
+                    twoBit.print(2048);
+                    twoBit.simulate(4096);
+                    twoBit.print(4096);
                     break;
                 case 'g':
 

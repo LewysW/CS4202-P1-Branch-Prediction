@@ -5,13 +5,13 @@
 
 class Predictor {
 private:
-    std::vector<Branch> branches;
+    std::shared_ptr<std::vector<Branch>> branches;
     double rate;
 
 public:
-    explicit Predictor(std::vector<Branch> &branches);
+    explicit Predictor(std::shared_ptr<std::vector<Branch>> &branches);
 
-    const std::vector<Branch> &getBranches() const;
+    const std::shared_ptr<std::vector<Branch>>& getBranches() const;
 
     double getRate() const;
 

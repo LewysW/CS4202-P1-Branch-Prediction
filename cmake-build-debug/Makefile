@@ -123,6 +123,33 @@ CS4202_P1_Branch_Prediction/fast:
 	$(MAKE) -f CMakeFiles/CS4202_P1_Branch_Prediction.dir/build.make CMakeFiles/CS4202_P1_Branch_Prediction.dir/build
 .PHONY : CS4202_P1_Branch_Prediction/fast
 
+src/alwaysTaken.o: src/alwaysTaken.cpp.o
+
+.PHONY : src/alwaysTaken.o
+
+# target to build an object file
+src/alwaysTaken.cpp.o:
+	$(MAKE) -f CMakeFiles/CS4202_P1_Branch_Prediction.dir/build.make CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/alwaysTaken.cpp.o
+.PHONY : src/alwaysTaken.cpp.o
+
+src/alwaysTaken.i: src/alwaysTaken.cpp.i
+
+.PHONY : src/alwaysTaken.i
+
+# target to preprocess a source file
+src/alwaysTaken.cpp.i:
+	$(MAKE) -f CMakeFiles/CS4202_P1_Branch_Prediction.dir/build.make CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/alwaysTaken.cpp.i
+.PHONY : src/alwaysTaken.cpp.i
+
+src/alwaysTaken.s: src/alwaysTaken.cpp.s
+
+.PHONY : src/alwaysTaken.s
+
+# target to generate assembly for a file
+src/alwaysTaken.cpp.s:
+	$(MAKE) -f CMakeFiles/CS4202_P1_Branch_Prediction.dir/build.make CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/alwaysTaken.cpp.s
+.PHONY : src/alwaysTaken.cpp.s
+
 src/branch.o: src/branch.cpp.o
 
 .PHONY : src/branch.o
@@ -177,6 +204,60 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/CS4202_P1_Branch_Prediction.dir/build.make CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/predictor.o: src/predictor.cpp.o
+
+.PHONY : src/predictor.o
+
+# target to build an object file
+src/predictor.cpp.o:
+	$(MAKE) -f CMakeFiles/CS4202_P1_Branch_Prediction.dir/build.make CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/predictor.cpp.o
+.PHONY : src/predictor.cpp.o
+
+src/predictor.i: src/predictor.cpp.i
+
+.PHONY : src/predictor.i
+
+# target to preprocess a source file
+src/predictor.cpp.i:
+	$(MAKE) -f CMakeFiles/CS4202_P1_Branch_Prediction.dir/build.make CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/predictor.cpp.i
+.PHONY : src/predictor.cpp.i
+
+src/predictor.s: src/predictor.cpp.s
+
+.PHONY : src/predictor.s
+
+# target to generate assembly for a file
+src/predictor.cpp.s:
+	$(MAKE) -f CMakeFiles/CS4202_P1_Branch_Prediction.dir/build.make CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/predictor.cpp.s
+.PHONY : src/predictor.cpp.s
+
+src/twoBit.o: src/twoBit.cpp.o
+
+.PHONY : src/twoBit.o
+
+# target to build an object file
+src/twoBit.cpp.o:
+	$(MAKE) -f CMakeFiles/CS4202_P1_Branch_Prediction.dir/build.make CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/twoBit.cpp.o
+.PHONY : src/twoBit.cpp.o
+
+src/twoBit.i: src/twoBit.cpp.i
+
+.PHONY : src/twoBit.i
+
+# target to preprocess a source file
+src/twoBit.cpp.i:
+	$(MAKE) -f CMakeFiles/CS4202_P1_Branch_Prediction.dir/build.make CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/twoBit.cpp.i
+.PHONY : src/twoBit.cpp.i
+
+src/twoBit.s: src/twoBit.cpp.s
+
+.PHONY : src/twoBit.s
+
+# target to generate assembly for a file
+src/twoBit.cpp.s:
+	$(MAKE) -f CMakeFiles/CS4202_P1_Branch_Prediction.dir/build.make CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/twoBit.cpp.s
+.PHONY : src/twoBit.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +267,21 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... CS4202_P1_Branch_Prediction"
+	@echo "... src/alwaysTaken.o"
+	@echo "... src/alwaysTaken.i"
+	@echo "... src/alwaysTaken.s"
 	@echo "... src/branch.o"
 	@echo "... src/branch.i"
 	@echo "... src/branch.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/predictor.o"
+	@echo "... src/predictor.i"
+	@echo "... src/predictor.s"
+	@echo "... src/twoBit.o"
+	@echo "... src/twoBit.i"
+	@echo "... src/twoBit.s"
 .PHONY : help
 
 

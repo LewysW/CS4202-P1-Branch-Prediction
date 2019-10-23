@@ -105,19 +105,97 @@ CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/branch.cpp.o.provides: CMakeFiles
 CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/branch.cpp.o.provides.build: CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/branch.cpp.o
 
 
+CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/predictor.cpp.o: CMakeFiles/CS4202_P1_Branch_Prediction.dir/flags.make
+CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/predictor.cpp.o: ../src/predictor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/predictor.cpp.o"
+	/usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/predictor.cpp.o -c /cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/predictor.cpp
+
+CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/predictor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/predictor.cpp.i"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/predictor.cpp > CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/predictor.cpp.i
+
+CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/predictor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/predictor.cpp.s"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/predictor.cpp -o CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/predictor.cpp.s
+
+CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/predictor.cpp.o.requires:
+
+.PHONY : CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/predictor.cpp.o.requires
+
+CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/predictor.cpp.o.provides: CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/predictor.cpp.o.requires
+	$(MAKE) -f CMakeFiles/CS4202_P1_Branch_Prediction.dir/build.make CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/predictor.cpp.o.provides.build
+.PHONY : CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/predictor.cpp.o.provides
+
+CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/predictor.cpp.o.provides.build: CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/predictor.cpp.o
+
+
+CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/alwaysTaken.cpp.o: CMakeFiles/CS4202_P1_Branch_Prediction.dir/flags.make
+CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/alwaysTaken.cpp.o: ../src/alwaysTaken.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/alwaysTaken.cpp.o"
+	/usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/alwaysTaken.cpp.o -c /cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/alwaysTaken.cpp
+
+CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/alwaysTaken.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/alwaysTaken.cpp.i"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/alwaysTaken.cpp > CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/alwaysTaken.cpp.i
+
+CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/alwaysTaken.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/alwaysTaken.cpp.s"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/alwaysTaken.cpp -o CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/alwaysTaken.cpp.s
+
+CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/alwaysTaken.cpp.o.requires:
+
+.PHONY : CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/alwaysTaken.cpp.o.requires
+
+CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/alwaysTaken.cpp.o.provides: CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/alwaysTaken.cpp.o.requires
+	$(MAKE) -f CMakeFiles/CS4202_P1_Branch_Prediction.dir/build.make CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/alwaysTaken.cpp.o.provides.build
+.PHONY : CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/alwaysTaken.cpp.o.provides
+
+CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/alwaysTaken.cpp.o.provides.build: CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/alwaysTaken.cpp.o
+
+
+CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/twoBit.cpp.o: CMakeFiles/CS4202_P1_Branch_Prediction.dir/flags.make
+CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/twoBit.cpp.o: ../src/twoBit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/twoBit.cpp.o"
+	/usr/lib64/ccache/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/twoBit.cpp.o -c /cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/twoBit.cpp
+
+CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/twoBit.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/twoBit.cpp.i"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/twoBit.cpp > CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/twoBit.cpp.i
+
+CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/twoBit.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/twoBit.cpp.s"
+	/usr/lib64/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/twoBit.cpp -o CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/twoBit.cpp.s
+
+CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/twoBit.cpp.o.requires:
+
+.PHONY : CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/twoBit.cpp.o.requires
+
+CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/twoBit.cpp.o.provides: CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/twoBit.cpp.o.requires
+	$(MAKE) -f CMakeFiles/CS4202_P1_Branch_Prediction.dir/build.make CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/twoBit.cpp.o.provides.build
+.PHONY : CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/twoBit.cpp.o.provides
+
+CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/twoBit.cpp.o.provides.build: CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/twoBit.cpp.o
+
+
 # Object files for target CS4202_P1_Branch_Prediction
 CS4202_P1_Branch_Prediction_OBJECTS = \
 "CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/main.cpp.o" \
-"CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/branch.cpp.o"
+"CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/branch.cpp.o" \
+"CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/predictor.cpp.o" \
+"CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/alwaysTaken.cpp.o" \
+"CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/twoBit.cpp.o"
 
 # External object files for target CS4202_P1_Branch_Prediction
 CS4202_P1_Branch_Prediction_EXTERNAL_OBJECTS =
 
 CS4202_P1_Branch_Prediction: CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/main.cpp.o
 CS4202_P1_Branch_Prediction: CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/branch.cpp.o
+CS4202_P1_Branch_Prediction: CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/predictor.cpp.o
+CS4202_P1_Branch_Prediction: CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/alwaysTaken.cpp.o
+CS4202_P1_Branch_Prediction: CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/twoBit.cpp.o
 CS4202_P1_Branch_Prediction: CMakeFiles/CS4202_P1_Branch_Prediction.dir/build.make
 CS4202_P1_Branch_Prediction: CMakeFiles/CS4202_P1_Branch_Prediction.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable CS4202_P1_Branch_Prediction"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable CS4202_P1_Branch_Prediction"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CS4202_P1_Branch_Prediction.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -127,6 +205,9 @@ CMakeFiles/CS4202_P1_Branch_Prediction.dir/build: CS4202_P1_Branch_Prediction
 
 CMakeFiles/CS4202_P1_Branch_Prediction.dir/requires: CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/main.cpp.o.requires
 CMakeFiles/CS4202_P1_Branch_Prediction.dir/requires: CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/branch.cpp.o.requires
+CMakeFiles/CS4202_P1_Branch_Prediction.dir/requires: CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/predictor.cpp.o.requires
+CMakeFiles/CS4202_P1_Branch_Prediction.dir/requires: CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/alwaysTaken.cpp.o.requires
+CMakeFiles/CS4202_P1_Branch_Prediction.dir/requires: CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/twoBit.cpp.o.requires
 
 .PHONY : CMakeFiles/CS4202_P1_Branch_Prediction.dir/requires
 

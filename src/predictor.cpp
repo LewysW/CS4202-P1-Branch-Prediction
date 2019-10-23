@@ -1,13 +1,14 @@
+#include <memory>
 #include "predictor.h"
 
-const std::vector<Branch> &Predictor::getBranches() const {
-    return branches;
-}
-
-Predictor::Predictor(std::vector<Branch> &branches) :
-        branches(std::move(branches)),
+Predictor::Predictor(std::shared_ptr<std::vector<Branch>> &branches) :
+        branches(branches),
         rate(-1)
 {}
+
+const std::shared_ptr<std::vector<Branch>>& Predictor::getBranches() const {
+    return branches;
+}
 
 double Predictor::getRate() const {
     return rate;
@@ -18,6 +19,6 @@ void Predictor::setRate(double rate) {
 }
 
 void Predictor::print() const {
-    std::cout << "Branches simulated: " << getBranches().size() << std::endl;
-    std::cout << "Prediction rate: " << getRate() << std::endl;
+    std::cout << "Branches simulated: " << getBranches()->size() << std::endl;
+    std::cout << "Prediction rate: " << getRate() << std::endl << std::endl;
 }

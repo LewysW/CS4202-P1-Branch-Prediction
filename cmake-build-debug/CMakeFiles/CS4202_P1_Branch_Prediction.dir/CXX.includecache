@@ -6,6 +6,18 @@
 
 #IncludeRegexTransform: 
 
+/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/alwaysTaken.cpp
+iostream
+-
+alwaysTaken.h
+/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/alwaysTaken.h
+
+/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/alwaysTaken.h
+memory
+-
+predictor.h
+/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/predictor.h
+
 /cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/branch.cpp
 branch.h
 /cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/branch.h
@@ -15,8 +27,20 @@ string
 -
 
 /cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/main.cpp
+memory
+-
+main.h
+/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/main.h
+twoBit.h
+/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/twoBit.h
+
+/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/main.h
 branch.h
 /cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/branch.h
+predictor.h
+/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/predictor.h
+alwaysTaken.h
+/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/alwaysTaken.h
 iostream
 -
 fstream
@@ -27,4 +51,36 @@ sstream
 -
 vector
 -
+set
+-
+
+/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/predictor.cpp
+memory
+-
+predictor.h
+/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/predictor.h
+
+/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/predictor.h
+vector
+-
+iostream
+-
+branch.h
+/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/branch.h
+
+/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/twoBit.cpp
+bitset
+-
+twoBit.h
+/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/twoBit.h
+
+/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/twoBit.h
+map
+-
+cmath
+-
+memory
+-
+predictor.h
+/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/predictor.h
 

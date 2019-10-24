@@ -3,6 +3,8 @@
 #include "branch.h"
 #include "predictor.h"
 #include "alwaysTaken.h"
+#include "twoBit.h"
+#include "GShare.h"
 #include <iostream>
 #include <fstream>
 #include <string>

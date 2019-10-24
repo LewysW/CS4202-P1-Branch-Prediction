@@ -15,8 +15,8 @@ public:
     explicit TwoBit(std::shared_ptr<std::vector<Branch>> &branches);
 
     bool isTaken(long address, std::map<long long, int>& table) const;
-    void simulate(int tableSize);
-    void print(int tableSize) const;
+    void simulate(unsigned long long tableSize);
+    void print(unsigned long long tableSize) const;
 
     bool isTaken(Branch b) const override;
     void simulate() override;

@@ -14,6 +14,7 @@ CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/alwaysTaken.cpp.o: ../src/predict
 CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/branch.cpp.o: ../src/branch.cpp
 CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/branch.cpp.o: ../src/branch.h
 
+CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/main.cpp.o: ../src/GShare.h
 CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/main.cpp.o: ../src/alwaysTaken.h
 CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/main.cpp.o: ../src/branch.h
 CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/main.cpp.o: ../src/main.cpp

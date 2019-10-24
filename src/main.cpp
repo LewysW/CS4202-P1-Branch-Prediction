@@ -1,6 +1,5 @@
 #include <memory>
 #include "main.h"
-#include "twoBit.h"
 
 int main(int argc, char* argv[]) {
     if (argc > 2) {
@@ -10,6 +9,7 @@ int main(int argc, char* argv[]) {
         std::shared_ptr<std::vector<Branch>> branches = std::make_shared<std::vector<Branch>>(readFile(fileName));
         AlwaysTaken alwaysTaken(branches);
         TwoBit twoBit(branches);
+        GShare gShare(branches);
 
         for (const std::string& opt : opts) {
             switch (opt[1]) {
@@ -18,17 +18,16 @@ int main(int argc, char* argv[]) {
                     alwaysTaken.print();
                     break;
                 case 'b':
-                    twoBit.simulate(512);
-                    twoBit.print(512);
-                    twoBit.simulate(1024);
-                    twoBit.print(1024);
-                    twoBit.simulate(2048);
-                    twoBit.print(2048);
-                    twoBit.simulate(4096);
-                    twoBit.print(4096);
+                    for (int i = 9; i <= 12; i++) {
+                        twoBit.simulate(static_cast<unsigned long long>(pow(2, i)));
+                        twoBit.print(static_cast<unsigned long long>(pow(2, i)));
+                    }
                     break;
                 case 'g':
-
+                    for (int j = 9; j <= 12; j++) {
+                        gShare.simulate(static_cast<unsigned long long>(pow(2, j)));
+                        gShare.print(static_cast<unsigned long long>(pow(2, j)));
+                    }
                     break;
                 case 'p':
 

@@ -7,12 +7,14 @@ void TwoBit::simulate(int tableSize) {
     double correct = 0;
     std::map<long long, int> table;
     auto addressLen = static_cast<unsigned int>(log2(tableSize));
+    unsigned long long bits;
+    long long address;
 
     for (unsigned int i = 0; i < getBranches()->size(); i++) {
         Branch b = getBranches()->at(i);
 
-        std::string binary = std::bitset<32>(static_cast<unsigned long long>(std::stoll(b.getAddress()))).to_string();
-        long long address = std::stoll(binary.substr(binary.length() - addressLen, addressLen));
+        bits = ((unsigned long long)1 << addressLen) - 1;
+        address = bits & std::stoll(b.getAddress().substr(b.getAddress().length() - addressLen, addressLen));
 
         if (table.find(address) == table.end())
             table.insert(std::pair<long long, int>(address, STRONGLY_TAKEN));

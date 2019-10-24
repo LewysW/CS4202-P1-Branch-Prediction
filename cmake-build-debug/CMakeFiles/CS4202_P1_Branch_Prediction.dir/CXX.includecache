@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/GShare.cpp
+GShare.h
+/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/GShare.h
+
+/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/GShare.h
+memory
+-
+predictor.h
+/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/predictor.h
+
 /cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/alwaysTaken.cpp
 iostream
 -

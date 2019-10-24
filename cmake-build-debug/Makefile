@@ -123,6 +123,33 @@ CS4202_P1_Branch_Prediction/fast:
 	$(MAKE) -f CMakeFiles/CS4202_P1_Branch_Prediction.dir/build.make CMakeFiles/CS4202_P1_Branch_Prediction.dir/build
 .PHONY : CS4202_P1_Branch_Prediction/fast
 
+src/GShare.o: src/GShare.cpp.o
+
+.PHONY : src/GShare.o
+
+# target to build an object file
+src/GShare.cpp.o:
+	$(MAKE) -f CMakeFiles/CS4202_P1_Branch_Prediction.dir/build.make CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/GShare.cpp.o
+.PHONY : src/GShare.cpp.o
+
+src/GShare.i: src/GShare.cpp.i
+
+.PHONY : src/GShare.i
+
+# target to preprocess a source file
+src/GShare.cpp.i:
+	$(MAKE) -f CMakeFiles/CS4202_P1_Branch_Prediction.dir/build.make CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/GShare.cpp.i
+.PHONY : src/GShare.cpp.i
+
+src/GShare.s: src/GShare.cpp.s
+
+.PHONY : src/GShare.s
+
+# target to generate assembly for a file
+src/GShare.cpp.s:
+	$(MAKE) -f CMakeFiles/CS4202_P1_Branch_Prediction.dir/build.make CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/GShare.cpp.s
+.PHONY : src/GShare.cpp.s
+
 src/alwaysTaken.o: src/alwaysTaken.cpp.o
 
 .PHONY : src/alwaysTaken.o
@@ -267,6 +294,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... CS4202_P1_Branch_Prediction"
+	@echo "... src/GShare.o"
+	@echo "... src/GShare.i"
+	@echo "... src/GShare.s"
 	@echo "... src/alwaysTaken.o"
 	@echo "... src/alwaysTaken.i"
 	@echo "... src/alwaysTaken.s"

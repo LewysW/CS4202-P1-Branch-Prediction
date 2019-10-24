@@ -19,7 +19,6 @@ public:
     void print(int tableSize) const;
 
     bool isTaken(Branch b) const override;
-
     void simulate() override;
 };
 

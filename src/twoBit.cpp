@@ -35,7 +35,7 @@ void TwoBit::simulate(int tableSize) {
 }
 
 bool TwoBit::isTaken(long address, std::map<long long, int>& table) const {
-    return (table.at(address) > WEAKLY_TAKEN);
+    return (table.at(address) >= WEAKLY_TAKEN);
 }
 
 void TwoBit::print(int tableSize) const {

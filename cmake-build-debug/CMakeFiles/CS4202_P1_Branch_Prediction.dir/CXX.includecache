@@ -47,6 +47,8 @@ memory
 -
 main.h
 /cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/main.h
+profiled.h
+/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/profiled.h
 
 /cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/main.h
 branch.h
@@ -85,6 +87,18 @@ iostream
 -
 branch.h
 /cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/branch.h
+
+/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/profiled.cpp
+profiled.h
+/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/profiled.h
+predictor.h
+/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/predictor.h
+
+/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/profiled.h
+memory
+-
+predictor.h
+/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/predictor.h
 
 /cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/twoBit.cpp
 twoBit.h

@@ -22,7 +22,7 @@ void GShare::simulate(unsigned long long tableSize) {
         address = GR ^ PC;
 
         if (table.find(address) == table.end()) {
-            table.insert(std::pair<long long, int>(address, STRONGLY_TAKEN));
+            table.insert(std::pair<long long, int>(address, WEAKLY_TAKEN));
         }
 
         //If prediction matches actual value, increment correct
@@ -52,11 +52,6 @@ void GShare::simulate(unsigned long long tableSize) {
                 table[address] = b.isTaken() ? WEAKLY_NOT_TAKEN : STRONGLY_NOT_TAKEN;
                 break;
         }
-
-        /*std::bitset<32> bitset(GR);
-        std::cout << "GR: " << bitset << std::endl;
-        std::bitset<32> bitset1(PC);
-        std::cout << "PC: " << bitset1 << std::endl;*/
     }
 
     std::cout << "Table size: " << table.size() << std::endl;

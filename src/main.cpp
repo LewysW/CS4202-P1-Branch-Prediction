@@ -1,5 +1,6 @@
 #include <memory>
 #include "main.h"
+#include "profiled.h"
 
 int main(int argc, char* argv[]) {
     if (argc > 2) {
@@ -10,6 +11,7 @@ int main(int argc, char* argv[]) {
         AlwaysTaken alwaysTaken(branches);
         TwoBit twoBit(branches);
         GShare gShare(branches);
+        Profiled profiled(branches);
 
         for (const std::string& opt : opts) {
             switch (opt[1]) {
@@ -18,19 +20,19 @@ int main(int argc, char* argv[]) {
                     alwaysTaken.print();
                     break;
                 case 'b':
-                    for (int i = 9; i <= 12; i++) {
+                    for (int i = 9; i < 20; i++) {
                         twoBit.simulate(static_cast<unsigned long long>(pow(2, i)));
                         twoBit.print(static_cast<unsigned long long>(pow(2, i)));
                     }
                     break;
                 case 'g':
-                    for (int j = 9; j <= 12; j++) {
+                    for (int j = 9; j < 20; j++) {
                         gShare.simulate(static_cast<unsigned long long>(pow(2, j)));
                         gShare.print(static_cast<unsigned long long>(pow(2, j)));
                     }
                     break;
                 case 'p':
-
+                    profiled.simulate();
                     break;
                 default:
                     break;

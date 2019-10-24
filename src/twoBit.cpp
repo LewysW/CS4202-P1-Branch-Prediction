@@ -18,7 +18,7 @@ void TwoBit::simulate(unsigned long long tableSize) {
 
         //If the value is not in the table, add it
         if (table.find(address) == table.end()) {
-            table.insert(std::pair<long long, int>(address, STRONGLY_TAKEN));
+            table.insert(std::pair<long long, int>(address, WEAKLY_TAKEN));
         }
 
         //If prediction matches actual value, update correct

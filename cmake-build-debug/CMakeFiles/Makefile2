@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-P
 CMakeFiles/CS4202_P1_Branch_Prediction.dir/all:
 	$(MAKE) -f CMakeFiles/CS4202_P1_Branch_Prediction.dir/build.make CMakeFiles/CS4202_P1_Branch_Prediction.dir/depend
 	$(MAKE) -f CMakeFiles/CS4202_P1_Branch_Prediction.dir/build.make CMakeFiles/CS4202_P1_Branch_Prediction.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target CS4202_P1_Branch_Prediction"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target CS4202_P1_Branch_Prediction"
 .PHONY : CMakeFiles/CS4202_P1_Branch_Prediction.dir/all
 
 # Include target in all.
@@ -76,7 +76,7 @@ all: CMakeFiles/CS4202_P1_Branch_Prediction.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CS4202_P1_Branch_Prediction.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/cmake-build-debug/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/cmake-build-debug/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CS4202_P1_Branch_Prediction.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/CS4202_P1_Branch_Prediction.dir/rule

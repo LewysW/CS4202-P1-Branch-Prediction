@@ -20,11 +20,17 @@ CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/main.cpp.o: ../src/branch.h
 CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/main.cpp.o: ../src/main.h
 CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/main.cpp.o: ../src/predictor.h
+CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/main.cpp.o: ../src/profiled.h
 CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/main.cpp.o: ../src/twoBit.h
 
 CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/predictor.cpp.o: ../src/branch.h
 CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/predictor.cpp.o: ../src/predictor.cpp
 CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/predictor.cpp.o: ../src/predictor.h
+
+CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/profiled.cpp.o: ../src/branch.h
+CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/profiled.cpp.o: ../src/predictor.h
+CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/profiled.cpp.o: ../src/profiled.cpp
+CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/profiled.cpp.o: ../src/profiled.h
 
 CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/twoBit.cpp.o: ../src/branch.h
 CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/twoBit.cpp.o: ../src/predictor.h

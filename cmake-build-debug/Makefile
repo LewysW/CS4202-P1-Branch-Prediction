@@ -258,6 +258,33 @@ src/predictor.cpp.s:
 	$(MAKE) -f CMakeFiles/CS4202_P1_Branch_Prediction.dir/build.make CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/predictor.cpp.s
 .PHONY : src/predictor.cpp.s
 
+src/profiled.o: src/profiled.cpp.o
+
+.PHONY : src/profiled.o
+
+# target to build an object file
+src/profiled.cpp.o:
+	$(MAKE) -f CMakeFiles/CS4202_P1_Branch_Prediction.dir/build.make CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/profiled.cpp.o
+.PHONY : src/profiled.cpp.o
+
+src/profiled.i: src/profiled.cpp.i
+
+.PHONY : src/profiled.i
+
+# target to preprocess a source file
+src/profiled.cpp.i:
+	$(MAKE) -f CMakeFiles/CS4202_P1_Branch_Prediction.dir/build.make CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/profiled.cpp.i
+.PHONY : src/profiled.cpp.i
+
+src/profiled.s: src/profiled.cpp.s
+
+.PHONY : src/profiled.s
+
+# target to generate assembly for a file
+src/profiled.cpp.s:
+	$(MAKE) -f CMakeFiles/CS4202_P1_Branch_Prediction.dir/build.make CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/profiled.cpp.s
+.PHONY : src/profiled.cpp.s
+
 src/twoBit.o: src/twoBit.cpp.o
 
 .PHONY : src/twoBit.o
@@ -309,6 +336,9 @@ help:
 	@echo "... src/predictor.o"
 	@echo "... src/predictor.i"
 	@echo "... src/predictor.s"
+	@echo "... src/profiled.o"
+	@echo "... src/profiled.i"
+	@echo "... src/profiled.s"
 	@echo "... src/twoBit.o"
 	@echo "... src/twoBit.i"
 	@echo "... src/twoBit.s"

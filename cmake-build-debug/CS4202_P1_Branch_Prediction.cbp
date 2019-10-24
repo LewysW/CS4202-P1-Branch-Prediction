@@ -110,6 +110,12 @@
 		<Unit filename="/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/predictor.h">
 			<Option target="CS4202_P1_Branch_Prediction"/>
 		</Unit>
+		<Unit filename="/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/profiled.cpp">
+			<Option target="CS4202_P1_Branch_Prediction"/>
+		</Unit>
+		<Unit filename="/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/profiled.h">
+			<Option target="CS4202_P1_Branch_Prediction"/>
+		</Unit>
 		<Unit filename="/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/twoBit.cpp">
 			<Option target="CS4202_P1_Branch_Prediction"/>
 		</Unit>

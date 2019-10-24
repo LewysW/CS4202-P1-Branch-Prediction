@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/alwaysTaken.cpp.o"
   "CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/twoBit.cpp.o"
   "CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/GShare.cpp.o"
+  "CMakeFiles/CS4202_P1_Branch_Prediction.dir/src/profiled.cpp.o"
   "CS4202_P1_Branch_Prediction.pdb"
   "CS4202_P1_Branch_Prediction"
 )

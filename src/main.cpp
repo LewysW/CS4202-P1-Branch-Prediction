@@ -11,7 +11,7 @@ int main(int argc, char* argv[]) {
         AlwaysTaken alwaysTaken(branches);
         TwoBit twoBit(branches);
         GShare gShare(branches);
-        Profiled profiled(branches);
+
 
         for (const std::string& opt : opts) {
             switch (opt[1]) {
@@ -26,15 +26,19 @@ int main(int argc, char* argv[]) {
                     }
                     break;
                 case 'g':
-                    for (int j = 9; j < 20; j++) {
-                        gShare.simulate(static_cast<unsigned long long>(pow(2, j)));
-                        gShare.print(static_cast<unsigned long long>(pow(2, j)));
+                    for (int i = 9; i < 20; i++) {
+                        gShare.simulate(static_cast<unsigned long long>(pow(2, i)));
+                        gShare.print(static_cast<unsigned long long>(pow(2, i)));
                     }
                     break;
                 case 'p':
-                    profiled.simulate();
-                    break;
-                default:
+                    std:: cout << "\nRunning profiled approach..." << std::endl;
+                    Profiled profiled(branches);
+
+                    for (int i = 9; i < 20; i++) {
+                        profiled.simulate(static_cast<unsigned long long>(pow(2, i)));
+                        profiled.print(static_cast<unsigned long long>(pow(2, i)));
+                    }
                     break;
             }
         }

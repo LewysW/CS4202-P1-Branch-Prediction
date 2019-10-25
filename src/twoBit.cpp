@@ -44,7 +44,6 @@ void TwoBit::simulate(unsigned long long tableSize) {
         }
     }
 
-    std::cout << "Table size:" << table.size() << std::endl;
     setRate(correct / getBranches()->size());
 }
 
@@ -52,7 +51,7 @@ bool TwoBit::isTaken(long address, std::map<long long, int>& table) const {
     return (table.at(address) >= WEAKLY_TAKEN);
 }
 
-void TwoBit::print(unsigned long long tableSize) const {
+void TwoBit::print(unsigned long long tableSize) {
     std::cout << "TwoBit" << std::endl;
     std::cout << "--------------------------" << std::endl;
     std::cout << "Table Size: " << tableSize << std::endl;

@@ -54,7 +54,6 @@ void GShare::simulate(unsigned long long tableSize) {
         }
     }
 
-    std::cout << "Table size: " << table.size() << std::endl;
     setRate(correct / getBranches()->size());
 }
 
@@ -62,7 +61,7 @@ bool GShare::isTaken(long address, std::map<long long, int> &table) const {
     return (table.at(address) >= WEAKLY_TAKEN);
 }
 
-void GShare::print(unsigned long long tableSize) const {
+void GShare::print(unsigned long long tableSize) {
     std::cout << "gshare" << std::endl;
     std::cout << "--------------------------" << std::endl;
     std::cout << "Table Size: " << tableSize << std::endl;

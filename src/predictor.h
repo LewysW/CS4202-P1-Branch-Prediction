@@ -11,7 +11,7 @@ private:
 public:
     explicit Predictor(std::shared_ptr<std::vector<Branch>> &branches);
 
-    const std::shared_ptr<std::vector<Branch>>& getBranches() const;
+    std::shared_ptr<std::vector<Branch>>& getBranches();
 
     double getRate() const;
 
@@ -21,7 +21,7 @@ public:
 
     virtual void simulate() = 0;
 
-    virtual void print() const;
+    virtual void print();
 };
 
 

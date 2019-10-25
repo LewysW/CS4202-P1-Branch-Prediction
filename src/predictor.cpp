@@ -6,7 +6,7 @@ Predictor::Predictor(std::shared_ptr<std::vector<Branch>> &branches) :
         rate(-1)
 {}
 
-const std::shared_ptr<std::vector<Branch>>& Predictor::getBranches() const {
+std::shared_ptr<std::vector<Branch>>& Predictor::getBranches() {
     return branches;
 }
 
@@ -18,7 +18,7 @@ void Predictor::setRate(double rate) {
     Predictor::rate = rate;
 }
 
-void Predictor::print() const {
+void Predictor::print() {
     std::cout << "Branches simulated: " << getBranches()->size() << std::endl;
     std::cout << "Prediction rate: " << getRate() << std::endl << std::endl;
 }

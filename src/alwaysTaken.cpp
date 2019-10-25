@@ -19,7 +19,7 @@ bool AlwaysTaken::isTaken(Branch b) const {
     return true;
 }
 
-void AlwaysTaken::print() const {
+void AlwaysTaken::print() {
     std::cout << "Always Taken" << std::endl;
     std::cout << "--------------------------" << std::endl;
     Predictor::print();

@@ -16,7 +16,7 @@ public:
 
     bool isTaken(long address, std::map<long long, int>& table) const;
     void simulate(unsigned long long tableSize);
-    void print(unsigned long long tableSize) const;
+    void print(unsigned long long tableSize);
 
     bool isTaken(Branch b) const override;
     void simulate() override;

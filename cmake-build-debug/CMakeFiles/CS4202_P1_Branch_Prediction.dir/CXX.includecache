@@ -91,11 +91,17 @@ branch.h
 /cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/profiled.cpp
 profiled.h
 /cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/profiled.h
-predictor.h
-/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/predictor.h
+GShare.h
+/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/GShare.h
+twoBit.h
+/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/twoBit.h
+alwaysTaken.h
+/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/alwaysTaken.h
 
 /cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/profiled.h
 memory
+-
+map
 -
 predictor.h
 /cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/predictor.h

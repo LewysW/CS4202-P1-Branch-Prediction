@@ -12,22 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4961b866-81a8-4699-9546-4235a9300069" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS4202_P1_Branch_Prediction.dir/CXX.includecache" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS4202_P1_Branch_Prediction.dir/CXX.includecache" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS4202_P1_Branch_Prediction.dir/depend.internal" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS4202_P1_Branch_Prediction.dir/depend.internal" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS4202_P1_Branch_Prediction.dir/depend.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CS4202_P1_Branch_Prediction.dir/depend.make" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CS4202_P1_Branch_Prediction" afterPath="$PROJECT_DIR$/cmake-build-debug/CS4202_P1_Branch_Prediction" />
-      <change beforePath="$PROJECT_DIR$/src/GShare.cpp" afterPath="$PROJECT_DIR$/src/GShare.cpp" />
-      <change beforePath="$PROJECT_DIR$/src/GShare.h" afterPath="$PROJECT_DIR$/src/GShare.h" />
-      <change beforePath="$PROJECT_DIR$/src/alwaysTaken.cpp" afterPath="$PROJECT_DIR$/src/alwaysTaken.cpp" />
-      <change beforePath="$PROJECT_DIR$/src/alwaysTaken.h" afterPath="$PROJECT_DIR$/src/alwaysTaken.h" />
-      <change beforePath="$PROJECT_DIR$/src/main.cpp" afterPath="$PROJECT_DIR$/src/main.cpp" />
-      <change beforePath="$PROJECT_DIR$/src/predictor.cpp" afterPath="$PROJECT_DIR$/src/predictor.cpp" />
-      <change beforePath="$PROJECT_DIR$/src/predictor.h" afterPath="$PROJECT_DIR$/src/predictor.h" />
-      <change beforePath="$PROJECT_DIR$/src/profiled.cpp" afterPath="$PROJECT_DIR$/src/profiled.cpp" />
-      <change beforePath="$PROJECT_DIR$/src/profiled.h" afterPath="$PROJECT_DIR$/src/profiled.h" />
-      <change beforePath="$PROJECT_DIR$/src/twoBit.cpp" afterPath="$PROJECT_DIR$/src/twoBit.cpp" />
-      <change beforePath="$PROJECT_DIR$/src/twoBit.h" afterPath="$PROJECT_DIR$/src/twoBit.h" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -133,8 +118,8 @@
       <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-198">
-              <caret line="7" column="63" lean-forward="false" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
+            <state relative-caret-position="36">
+              <caret line="47" column="13" lean-forward="false" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
               <folding>
                 <element signature="e#0#17#0" expanded="true" />
               </folding>
@@ -253,7 +238,7 @@
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CS4202_P1_Branch_Prediction" RUN_TARGET_NAME="CS4202_P1_Branch_Prediction" EXPLICIT_BUILD_TARGET_NAME="all">
       <envs />
     </configuration>
-    <configuration name="CS4202_P1_Branch_Prediction" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="../traces/cutdowngccdata.out -a -b -g -p" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CS4202_P1_Branch_Prediction" TARGET_NAME="CS4202_P1_Branch_Prediction" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CS4202_P1_Branch_Prediction" RUN_TARGET_NAME="CS4202_P1_Branch_Prediction">
+    <configuration name="CS4202_P1_Branch_Prediction" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="../traces/tm.out -b -g" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CS4202_P1_Branch_Prediction" TARGET_NAME="CS4202_P1_Branch_Prediction" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CS4202_P1_Branch_Prediction" RUN_TARGET_NAME="CS4202_P1_Branch_Prediction">
       <envs />
     </configuration>
     <list size="2">
@@ -283,12 +268,12 @@
       <workItem from="1571779412558" duration="11801000" />
       <workItem from="1571914107568" duration="22102000" />
       <workItem from="1572012628397" duration="3648000" />
-      <workItem from="1572016287831" duration="2373000" />
+      <workItem from="1572016287831" duration="5368000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44560000" />
+    <option name="totallyTimeSpent" value="47555000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1020" extended-state="6" />
@@ -300,7 +285,7 @@
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885212" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41261062" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41261062" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -710,8 +695,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-198">
-          <caret line="7" column="63" lean-forward="false" selection-start-line="7" selection-start-column="63" selection-end-line="7" selection-end-column="63" />
+        <state relative-caret-position="36">
+          <caret line="47" column="13" lean-forward="false" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
           <folding>
             <element signature="e#0#17#0" expanded="true" />
           </folding>

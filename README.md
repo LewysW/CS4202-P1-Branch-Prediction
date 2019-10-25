@@ -9,9 +9,7 @@ Test Programs Used to Gather Data:
 
 3. gcc 
 
-- ran by building vim:
-
-- Available at https://github.com/vim/vim
+- ran by building the predictor program:
 
 - Ran with command: ../../../pin-3.7-97619-g0d0c92f4f-gcc-linux/pin -injection child -t ../../../pin-3.7-97619-g0d0c92f4f-gcc-linux/source/tools/ManualExamples/obj-intel64/branchtrace.so -- make
 
@@ -22,3 +20,11 @@ Test Programs Used to Gather Data:
 - Ran with command: ../../../pin -injection child -t obj-intel64/branchtrace.so -- ../../../../Test_Programs/TM/runtm ../../../../Test_Programs/TM/simple.tm ../../../../Test_Programs/TM/long.tape
 
 - Practical files available at: https://studres.cs.st-andrews.ac.uk/2018_2019/CS3052/Practicals/P01-version4/Tests/TestTMs/ 
+
+5. ffmpeg
+
+- Open source multimedia conversion program
+
+- Can clone repo using the command: git clonehttps://git.ffmpeg.org/ffmpeg.git ffmpeg
+
+- Run ./configure and then make

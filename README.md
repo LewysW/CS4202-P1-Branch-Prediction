@@ -3,28 +3,44 @@ First practical for CS4202 Computer Architecture on branch prediction
 
 Test Programs Used to Gather Data:
 
-1. npm 
+1. bzip2 
+
+- second most popular compression tool for Linux, uses Burrows-Wheeler block sorting transformation and Huffman coding
+
+- https://people.csail.mit.edu/smcc/projects/single-file-programs/
+
+- Ran the following command - ../../../pin -injection child -t obj-intel64/branchtrace.so -- bzip2 -z ../../../../Test_Programs/bzip2/gcc.c
+
+- Stopped running when the output file was around 800MB (about 11 million lines), took lines 5-6 million as a sample
 	
-2. jvm 
+2. oggenc
 
-3. gcc 
+- Implementation of a command-line encoding tool for Ogg Vorbis, a non-proprietary lossy audio compression scheme
 
-- ran by building the predictor program:
+- Downloaded source from - https://people.csail.mit.edu/smcc/projects/single-file-programs/
 
-- Ran with command: ../../../pin-3.7-97619-g0d0c92f4f-gcc-linux/pin -injection child -t ../../../pin-3.7-97619-g0d0c92f4f-gcc-linux/source/tools/ManualExamples/obj-intel64/branchtrace.so -- make
+- Ran the following command - ../../../pin -injection child -t obj-intel64/branchtrace.so -- ../../../../Test_Programs/oggenc/oggenc ../../../../Test_Programs/oggenc/jfk_1963_0626_berliner.wav
+
+- Stopped running when output file was around 600MB (13 million lines), took lines 6-7 million as a sample
+
+3. gcc
+
+- GNU C Compiler
+
+- Compiled mini-os, available at https://github.com/mirage/mini-os
+
+- Ran the command: ../../../pin-3.7-97619-g0d0c92f4f-gcc-linux/pin -injection child -t ../../../pin-3.7-97619-g0d0c92f4f-gcc-linux/source/tools/ManualExamples/obj-intel64/branchtrace.so -- make
+
+- mini-os compiled quickly, producing an output file of almost 2 million lines, took the middle 1 million lines as a sample
+
+- Above command run while in the mini-os directory
 
 4. runtm 
 
 - turing machine simulation practical
 
-- Ran with command: ../../../pin -injection child -t obj-intel64/branchtrace.so -- ../../../../Test_Programs/TM/runtm ../../../../Test_Programs/TM/simple.tm ../../../../Test_Programs/TM/long.tape
+- Ran with command: ../../../pin -injection child -t obj-intel64/branchtrace.so -- ../../../../Test_Programs/TM/runtm ../../../../Test_Programs/TM/busy5.tm ../../../../Test_Programs/TM/busy5.tape
 
-- Practical files available at: https://studres.cs.st-andrews.ac.uk/2018_2019/CS3052/Practicals/P01-version4/Tests/TestTMs/ 
+- Stopped running when output file was around 750MB, 
 
-5. ffmpeg
-
-- Open source multimedia conversion program
-
-- Can clone repo using the command: git clonehttps://git.ffmpeg.org/ffmpeg.git ffmpeg
-
-- Run ./configure and then make
+5. jvm

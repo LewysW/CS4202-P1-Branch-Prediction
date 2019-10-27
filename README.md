@@ -27,13 +27,13 @@ Test Programs Used to Gather Data:
 
 - GNU C Compiler
 
-- Compiled mini-os, available at https://github.com/mirage/mini-os
+- Compiled the gcc source code available in a single file from https://people.csail.mit.edu/smcc/projects/single-file-programs/
 
-- Ran the command: ../../../pin-3.7-97619-g0d0c92f4f-gcc-linux/pin -injection child -t ../../../pin-3.7-97619-g0d0c92f4f-gcc-linux/source/tools/ManualExamples/obj-intel64/branchtrace.so -- make
+- Ran the command: ../../pin-3.7-97619-g0d0c92f4f-gcc-linux/pin -injection child -t ../../pin-3.7-97619-g0d0c92f4f-gcc-linux/source/tools/ManualExamples/obj-intel64/branchtrace.so -- gcc gcc.c -c
 
-- mini-os compiled quickly, producing an output file of almost 2 million lines, took the middle 1 million lines as a sample
+- Stopped running when file was round 750MB (10 million lines)
 
-- Above command run while in the mini-os directory
+- Took lines 5-6 million as a sample
 
 4. runtm 
 

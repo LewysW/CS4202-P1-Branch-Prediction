@@ -43,4 +43,20 @@ Test Programs Used to Gather Data:
 
 - Stopped running when output file was around 750MB, 
 
-5. jvm
+5. quicksort
+
+- Wrote a quicksort program in C which reads in 1000 random numbers from a file generated from a website and populates a list of 1000000 using these items:
+
+https://www.random.org/integers/?num=1000&min=1&max=10000&col=1&base=10&format=html&rnd=new
+
+- Original source code:
+
+	- https://www.geeksforgeeks.org/quick-sort/
+
+	- https://stackoverflow.com/questions/14802470/read-list-of-numbers-in-txt-file-and-store-to-array-in-c
+
+- Ran with commmand: ../../pin-3.7-97619-g0d0c92f4f-gcc-linux/pin -injection child -t ../../pin-3.7-97619-g0d0c92f4f-gcc-linux/source/tools/ManualExamples/obj-intel64/branchtrace.so -- ./quicksort
+
+- When I stopped running the program the branchtrace file was about 300MB (about 3.6 million lines)
+
+- Took lines 2-3 million as a sample

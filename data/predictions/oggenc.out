@@ -1,0 +1,205 @@
+Always Taken
+--------------------------
+Branches simulated: 1000000
+Prediction rate: 0.748109
+
+TwoBit
+--------------------------
+Table Size: 512
+Branches simulated: 1000000
+Prediction rate: 0.920632
+
+TwoBit
+--------------------------
+Table Size: 1024
+Branches simulated: 1000000
+Prediction rate: 0.921244
+
+TwoBit
+--------------------------
+Table Size: 2048
+Branches simulated: 1000000
+Prediction rate: 0.921665
+
+TwoBit
+--------------------------
+Table Size: 4096
+Branches simulated: 1000000
+Prediction rate: 0.921988
+
+TwoBit
+--------------------------
+Table Size: 8192
+Branches simulated: 1000000
+Prediction rate: 0.922059
+
+TwoBit
+--------------------------
+Table Size: 16384
+Branches simulated: 1000000
+Prediction rate: 0.923826
+
+TwoBit
+--------------------------
+Table Size: 32768
+Branches simulated: 1000000
+Prediction rate: 0.923882
+
+TwoBit
+--------------------------
+Table Size: 65536
+Branches simulated: 1000000
+Prediction rate: 0.923895
+
+TwoBit
+--------------------------
+Table Size: 131072
+Branches simulated: 1000000
+Prediction rate: 0.923915
+
+TwoBit
+--------------------------
+Table Size: 262144
+Branches simulated: 1000000
+Prediction rate: 0.923915
+
+TwoBit
+--------------------------
+Table Size: 524288
+Branches simulated: 1000000
+Prediction rate: 0.923916
+
+gshare
+--------------------------
+Table Size: 512
+Branches simulated: 1000000
+Prediction rate: 0.803788
+
+gshare
+--------------------------
+Table Size: 1024
+Branches simulated: 1000000
+Prediction rate: 0.792794
+
+gshare
+--------------------------
+Table Size: 2048
+Branches simulated: 1000000
+Prediction rate: 0.779321
+
+gshare
+--------------------------
+Table Size: 4096
+Branches simulated: 1000000
+Prediction rate: 0.766607
+
+gshare
+--------------------------
+Table Size: 8192
+Branches simulated: 1000000
+Prediction rate: 0.74811
+
+gshare
+--------------------------
+Table Size: 16384
+Branches simulated: 1000000
+Prediction rate: 0.733696
+
+gshare
+--------------------------
+Table Size: 32768
+Branches simulated: 1000000
+Prediction rate: 0.726152
+
+gshare
+--------------------------
+Table Size: 65536
+Branches simulated: 1000000
+Prediction rate: 0.733102
+
+gshare
+--------------------------
+Table Size: 131072
+Branches simulated: 1000000
+Prediction rate: 0.746707
+
+gshare
+--------------------------
+Table Size: 262144
+Branches simulated: 1000000
+Prediction rate: 0.780529
+
+gshare
+--------------------------
+Table Size: 524288
+Branches simulated: 1000000
+Prediction rate: 0.806732
+
+
+Running profiled approach...
+Profiled
+--------------------------
+Table Size: 512
+Branches simulated: 1000000
+Prediction rate: 0.920632
+
+Profiled
+--------------------------
+Table Size: 1024
+Branches simulated: 1000000
+Prediction rate: 0.921244
+
+Profiled
+--------------------------
+Table Size: 2048
+Branches simulated: 1000000
+Prediction rate: 0.921665
+
+Profiled
+--------------------------
+Table Size: 4096
+Branches simulated: 1000000
+Prediction rate: 0.921988
+
+Profiled
+--------------------------
+Table Size: 8192
+Branches simulated: 1000000
+Prediction rate: 0.922059
+
+Profiled
+--------------------------
+Table Size: 16384
+Branches simulated: 1000000
+Prediction rate: 0.923826
+
+Profiled
+--------------------------
+Table Size: 32768
+Branches simulated: 1000000
+Prediction rate: 0.923882
+
+Profiled
+--------------------------
+Table Size: 65536
+Branches simulated: 1000000
+Prediction rate: 0.923895
+
+Profiled
+--------------------------
+Table Size: 131072
+Branches simulated: 1000000
+Prediction rate: 0.923915
+
+Profiled
+--------------------------
+Table Size: 262144
+Branches simulated: 1000000
+Prediction rate: 0.923915
+
+Profiled
+--------------------------
+Table Size: 524288
+Branches simulated: 1000000
+Prediction rate: 0.923916
+

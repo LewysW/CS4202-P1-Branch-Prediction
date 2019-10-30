@@ -3,6 +3,9 @@
 
 AlwaysTaken::AlwaysTaken(std::shared_ptr<std::vector<Branch>> &branches) : Predictor(branches) {}
 
+/**
+ * Simluates by calling is taken for each branch and calculating the success rate
+ */
 void AlwaysTaken::simulate() {
     double correct = 0;
 
@@ -15,6 +18,10 @@ void AlwaysTaken::simulate() {
     setRate(correct / getBranches()->size());
 }
 
+/**
+ * Always taken predictor predicts branch is always taken,
+ * so simply returns true
+ */
 bool AlwaysTaken::isTaken(Branch b) const {
     return true;
 }

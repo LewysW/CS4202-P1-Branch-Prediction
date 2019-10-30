@@ -8,121 +8,125 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/cmake-build-debug"/>
+				<Option working_dir="/home/lewys/Documents/Practicals/CS4202-P1-Branch-Prediction/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j6 -f &quot;/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j6 -f &quot;/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j6 -f &quot;/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lewys/Documents/Practicals/CS4202-P1-Branch-Prediction/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lewys/Documents/Practicals/CS4202-P1-Branch-Prediction/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lewys/Documents/Practicals/CS4202-P1-Branch-Prediction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lewys/Documents/Practicals/CS4202-P1-Branch-Prediction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/cmake-build-debug"/>
+				<Option working_dir="/home/lewys/Documents/Practicals/CS4202-P1-Branch-Prediction/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j6 -f &quot;/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j6 -f &quot;/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j6 -f &quot;/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/gmake -j6 -f &quot;/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j6 -f &quot;/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j6 -f &quot;/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lewys/Documents/Practicals/CS4202-P1-Branch-Prediction/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lewys/Documents/Practicals/CS4202-P1-Branch-Prediction/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lewys/Documents/Practicals/CS4202-P1-Branch-Prediction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lewys/Documents/Practicals/CS4202-P1-Branch-Prediction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="CS4202_P1_Branch_Prediction">
-				<Option output="/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/cmake-build-debug/CS4202_P1_Branch_Prediction" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/cmake-build-debug"/>
+				<Option output="/home/lewys/Documents/Practicals/CS4202-P1-Branch-Prediction/cmake-build-debug/CS4202_P1_Branch_Prediction" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lewys/Documents/Practicals/CS4202-P1-Branch-Prediction/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
 					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j6 -f &quot;/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/cmake-build-debug/Makefile&quot;  VERBOSE=1 CS4202_P1_Branch_Prediction"/>
-					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j6 -f &quot;/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j6 -f &quot;/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lewys/Documents/Practicals/CS4202-P1-Branch-Prediction/cmake-build-debug/Makefile&quot;  VERBOSE=1 CS4202_P1_Branch_Prediction"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lewys/Documents/Practicals/CS4202-P1-Branch-Prediction/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lewys/Documents/Practicals/CS4202-P1-Branch-Prediction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lewys/Documents/Practicals/CS4202-P1-Branch-Prediction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="CS4202_P1_Branch_Prediction/fast">
-				<Option output="/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/cmake-build-debug/CS4202_P1_Branch_Prediction" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/cmake-build-debug"/>
+				<Option output="/home/lewys/Documents/Practicals/CS4202-P1-Branch-Prediction/cmake-build-debug/CS4202_P1_Branch_Prediction" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lewys/Documents/Practicals/CS4202-P1-Branch-Prediction/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/x86_64-redhat-linux"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/../../../../include/c++/9/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/9/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
 					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/gmake -j6 -f &quot;/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/cmake-build-debug/Makefile&quot;  VERBOSE=1 CS4202_P1_Branch_Prediction/fast"/>
-					<CompileFile command="/usr/bin/gmake -j6 -f &quot;/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/gmake -j6 -f &quot;/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/gmake -j6 -f &quot;/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lewys/Documents/Practicals/CS4202-P1-Branch-Prediction/cmake-build-debug/Makefile&quot;  VERBOSE=1 CS4202_P1_Branch_Prediction/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lewys/Documents/Practicals/CS4202-P1-Branch-Prediction/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lewys/Documents/Practicals/CS4202-P1-Branch-Prediction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lewys/Documents/Practicals/CS4202-P1-Branch-Prediction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/lewys/Documents/Practicals/CS4202-P1-Branch-Prediction/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lewys/Documents/Practicals/CS4202-P1-Branch-Prediction/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lewys/Documents/Practicals/CS4202-P1-Branch-Prediction/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lewys/Documents/Practicals/CS4202-P1-Branch-Prediction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lewys/Documents/Practicals/CS4202-P1-Branch-Prediction/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/GShare.cpp">
+		<Unit filename="/home/lewys/Documents/Practicals/CS4202-P1-Branch-Prediction/src/GShare.cpp">
 			<Option target="CS4202_P1_Branch_Prediction"/>
 		</Unit>
-		<Unit filename="/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/GShare.h">
+		<Unit filename="/home/lewys/Documents/Practicals/CS4202-P1-Branch-Prediction/src/GShare.h">
 			<Option target="CS4202_P1_Branch_Prediction"/>
 		</Unit>
-		<Unit filename="/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/alwaysTaken.cpp">
+		<Unit filename="/home/lewys/Documents/Practicals/CS4202-P1-Branch-Prediction/src/alwaysTaken.cpp">
 			<Option target="CS4202_P1_Branch_Prediction"/>
 		</Unit>
-		<Unit filename="/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/alwaysTaken.h">
+		<Unit filename="/home/lewys/Documents/Practicals/CS4202-P1-Branch-Prediction/src/alwaysTaken.h">
 			<Option target="CS4202_P1_Branch_Prediction"/>
 		</Unit>
-		<Unit filename="/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/branch.cpp">
+		<Unit filename="/home/lewys/Documents/Practicals/CS4202-P1-Branch-Prediction/src/branch.cpp">
 			<Option target="CS4202_P1_Branch_Prediction"/>
 		</Unit>
-		<Unit filename="/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/branch.h">
+		<Unit filename="/home/lewys/Documents/Practicals/CS4202-P1-Branch-Prediction/src/branch.h">
 			<Option target="CS4202_P1_Branch_Prediction"/>
 		</Unit>
-		<Unit filename="/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/main.cpp">
+		<Unit filename="/home/lewys/Documents/Practicals/CS4202-P1-Branch-Prediction/src/main.cpp">
 			<Option target="CS4202_P1_Branch_Prediction"/>
 		</Unit>
-		<Unit filename="/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/main.h">
+		<Unit filename="/home/lewys/Documents/Practicals/CS4202-P1-Branch-Prediction/src/main.h">
 			<Option target="CS4202_P1_Branch_Prediction"/>
 		</Unit>
-		<Unit filename="/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/predictor.cpp">
+		<Unit filename="/home/lewys/Documents/Practicals/CS4202-P1-Branch-Prediction/src/predictor.cpp">
 			<Option target="CS4202_P1_Branch_Prediction"/>
 		</Unit>
-		<Unit filename="/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/predictor.h">
+		<Unit filename="/home/lewys/Documents/Practicals/CS4202-P1-Branch-Prediction/src/predictor.h">
 			<Option target="CS4202_P1_Branch_Prediction"/>
 		</Unit>
-		<Unit filename="/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/profiled.cpp">
+		<Unit filename="/home/lewys/Documents/Practicals/CS4202-P1-Branch-Prediction/src/profiled.cpp">
 			<Option target="CS4202_P1_Branch_Prediction"/>
 		</Unit>
-		<Unit filename="/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/profiled.h">
+		<Unit filename="/home/lewys/Documents/Practicals/CS4202-P1-Branch-Prediction/src/profiled.h">
 			<Option target="CS4202_P1_Branch_Prediction"/>
 		</Unit>
-		<Unit filename="/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/twoBit.cpp">
+		<Unit filename="/home/lewys/Documents/Practicals/CS4202-P1-Branch-Prediction/src/twoBit.cpp">
 			<Option target="CS4202_P1_Branch_Prediction"/>
 		</Unit>
-		<Unit filename="/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/src/twoBit.h">
+		<Unit filename="/home/lewys/Documents/Practicals/CS4202-P1-Branch-Prediction/src/twoBit.h">
 			<Option target="CS4202_P1_Branch_Prediction"/>
 		</Unit>
-		<Unit filename="/cs/home/locw/Documents/Fourth_Year/CS4202/CS4202-P1-Branch-Prediction/CMakeLists.txt">
+		<Unit filename="/home/lewys/Documents/Practicals/CS4202-P1-Branch-Prediction/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

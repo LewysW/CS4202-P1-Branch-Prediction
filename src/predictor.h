@@ -3,6 +3,9 @@
 #include <iostream>
 #include "branch.h"
 
+/**
+ * Super class representing a branch prediction strategy
+ */
 class Predictor {
 private:
     std::shared_ptr<std::vector<Branch>> branches;

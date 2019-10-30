@@ -3,14 +3,32 @@
 
 GShare::GShare(std::shared_ptr<std::vector<Branch>> &branches) : Predictor(branches) {}
 
+/**
+ * Keeps a store of global and local (bimodal) history, XORs these values, and uses the lower bits of
+ * this value as an index into a table containing the prediction for the current branch
+ * @param tableSize
+ */
 void GShare::simulate(unsigned long long tableSize) {
     double correct = 0;
     double incorrect = 0;
+
+    //Stores list of address indexes and taken/not taken
     std::map<long long, int> table;
+
+    //Determines address length based on table size (e.g. table size of
+    // 4096 has an address length of 9, i.e. 2^9 = 4096)
     auto addressLen = static_cast<unsigned int>(log2l(tableSize));
-    long long bitMask = (1 << addressLen) - 1;;
+
+    //Stores longest value that can be stored in address (all 1s of length 'addressLen')
+    long long bitMask = (1 << addressLen) - 1;
+
+    //Stores local history
     long long PC;
+
+    //Stores global history
     long long GR = (1 << addressLen) - 1;
+
+    //Stores XORED value
     long long address;
 
     //Iterates through each branch in list
@@ -57,10 +75,20 @@ void GShare::simulate(unsigned long long tableSize) {
     setRate(correct / getBranches()->size());
 }
 
+/**
+ * If value in table is weakly or strongly taken, return true
+ * @param address - index into table
+ * @param table - table storing taken/not taken
+ * @return whether value in table is taken/not taken
+ */
 bool GShare::isTaken(long address, std::map<long long, int> &table) const {
     return (table.at(address) >= WEAKLY_TAKEN);
 }
 
+/**
+ * Prints out result of the simluation for gshare
+ * @param tableSize - size of table to index into
+ */
 void GShare::print(unsigned long long tableSize) {
     std::cout << "gshare" << std::endl;
     std::cout << "--------------------------" << std::endl;

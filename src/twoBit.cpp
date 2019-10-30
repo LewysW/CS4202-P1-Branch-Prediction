@@ -2,11 +2,20 @@
 
 TwoBit::TwoBit(std::shared_ptr<std::vector<Branch>> &branches) : Predictor(branches) {}
 
+/**
+ * Simulates the bimodal (Two Bit) predictor
+ * @param tableSize - size of table to index into
+ */
 void TwoBit::simulate(unsigned long long tableSize) {
+    //Stores number of correct predictions
     double correct = 0;
+    //Table to store address (low bits of address) and current prediction for address
     std::map<long long, int> table;
+    //Stores length of address based on table size (e.g. 9 bits for 4096 = 2^9)
     auto addressLen = static_cast<unsigned int>(log2l(tableSize));
+    //Maximum value that can be stored in table (all 1s of length 'addressLen')
     long long bits = (1 << addressLen) - 1;
+    //Value to store index into table
     long long address;
 
     //Iterates through each branch in the list

@@ -2,35 +2,47 @@
 #include "main.h"
 #include "profiled.h"
 
+/**
+ * Entry point of program
+ */
 int main(int argc, char* argv[]) {
     if (argc > 2) {
+        //Holds file name and arguments
         std::string fileName = std::string(argv[1]);
         std::vector<std::string> opts = getOptions(argc, argv);
 
+        //Stores list of branches from file
         std::shared_ptr<std::vector<Branch>> branches = std::make_shared<std::vector<Branch>>(readFile(fileName));
+
+        //Creates objects for each branch prediction strategy
         AlwaysTaken alwaysTaken(branches);
         TwoBit twoBit(branches);
         GShare gShare(branches);
 
 
+        //runs each branch prediction strategy associated with each command line argument
         for (const std::string& opt : opts) {
             switch (opt[1]) {
+                //Always taken
                 case 'a':
                     alwaysTaken.simulate();
                     alwaysTaken.print();
                     break;
+                //Two Bit (Bimodal)
                 case 'b':
                     for (int i = 9; i < 20; i++) {
                         twoBit.simulate(static_cast<unsigned long long>(pow(2, i)));
                         twoBit.print(static_cast<unsigned long long>(pow(2, i)));
                     }
                     break;
+                //gshare
                 case 'g':
                     for (int i = 9; i < 20; i++) {
                         gShare.simulate(static_cast<unsigned long long>(pow(2, i)));
                         gShare.print(static_cast<unsigned long long>(pow(2, i)));
                     }
                     break;
+                //Profiled approach
                 case 'p':
                     std:: cout << "\nRunning profiled approach..." << std::endl;
                     Profiled profiled(branches);
@@ -48,6 +60,12 @@ int main(int argc, char* argv[]) {
     return 0;
 }
 
+/**
+ * Parses options from the command line
+ * @param argc - number of arguments
+ * @param argv - list of arguments
+ * @return - valid list of command line options
+ */
 std::vector<std::string> getOptions(int argc, char* argv[]) {
     std::vector<std::string> opts;
     std::set<std::string> valid = {"-a", "-b", "-g", "-p"};
@@ -64,8 +82,11 @@ std::vector<std::string> getOptions(int argc, char* argv[]) {
     return opts;
 }
 
+/**
+ * Prints a usage message if the user incorrectly runs the program
+ */
 void printUsage() {
-    std::cout << "Usage: ./predictor <filename> <option>" << std::endl;
+    std::cout << "Usage: ./predictor <filename> <options>" << std::endl;
     std::cout << "Options:" << std::endl;
     std::cout << "'-a' Always Taken" << std::endl;
     std::cout << "'-b' standard 2-bit predictor" << std::endl;
@@ -73,6 +94,12 @@ void printUsage() {
     std::cout << "'-p' Profiled approach" << std::endl;
 }
 
+/**
+ * Opens the file which is the first command line argument,
+ * and parses its contents into a branch data structure
+ * @param file - file name
+ * @return list of branches
+ */
 std::vector<Branch> readFile(std::string const& file) {
     std::ifstream inputFile;
     inputFile.open(file);
@@ -87,6 +114,13 @@ std::vector<Branch> readFile(std::string const& file) {
 
 //BEGIN CITATION
 //Code for tokenizing file: https://stackoverflow.com/questions/42444556/reading-file-line-by-line-and-tokenizing-lines
+
+/**
+ * Parses each line of a given input file stream into a Branch
+ * and adds Branch to a vector of branches
+ * @param ifstream - input file stream
+ * @return - vector of branches
+ */
 std::vector<Branch> parseLines(std::ifstream& ifstream){
     std::string line;
     bool isAddress = true;

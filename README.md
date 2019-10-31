@@ -1,7 +1,36 @@
 # CS4202-P1-Branch-Prediction
 First practical for CS4202 Computer Architecture on branch prediction
 
-Test Programs Used to Gather Data:
+Implemented using C++ 17
+
+# Compilation/Execution Instructions:
+
+# Compilation
+
+1. Open a terminal window in the 'CS4202-P1-Branch-Prediction/src' directory
+
+2. Run the command 'make' to run the Makefile
+
+# Execution
+
+1. Open a terminal window in the 'CS4202-P1-Branch-Predictor/src' directory
+
+2. Run the following command with a Pin output file and one or more flags 
+(denoting prediction strategies) as command line arguments:
+
+    ./predictor <Pin_file_path> <strategy1> <strategy2> <strategy3>...
+
+Valid prediction strategies include:
+
+1. '-a' - always taken
+
+2. '-b' - two bit/bimodal
+
+3. '-g' - gshare
+
+4. '-p' - profiled approach
+
+# Test Programs Used to Gather Data:
 
 1. bzip2 
 
